@@ -1,0 +1,29 @@
+#quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  text-align: center;
+}
+
+#quote {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 36px;
+  font-style: italic;
+}
+
+#new-quote {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
